@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #0f172a;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.home {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
+}
+
+.home .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.home .content span {
+    color: #ffcc00;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.about, .projects, .contact {
+    background: #fff;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
