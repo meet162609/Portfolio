@@ -1,0 +1,4 @@
+Retrieving logs...
+Logs were saved to /Users/meetpatel/portfolio-site/.elasticbeanstalk/logs/250723_153955
+Logs were saved to /Users/meetpatel/portfolio-site/.elasticbeanstalk/logs/250723_153955
+Updated symlink at /Users/meetpatel/portfolio-site/.elasticbeanstalk/logs/latest
