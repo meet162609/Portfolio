@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-xo%#u-yax+6f@6+v*_6@%md-2l=+i!=m291mfn4#@i7yyx=4s!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.elasticbeanstalk.com','portfolio-5dn0.onrender.com','127.0.0.1','localhost','meetsethiya.com', 'www.meetsethiya.com']
+ALLOWED_HOSTS = [ 'python16-g5hjfsgne2dyb7fu.centralindia-01.azurewebsites.net','.elasticbeanstalk.com','portfolio-5dn0.onrender.com','127.0.0.1','localhost','meetsethiya.com', 'www.meetsethiya.com']
 
 
 # Application definition
